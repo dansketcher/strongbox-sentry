@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Dan Sketcher"]
   s.email       = ["dan@sketcher.net"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = "A wrapper for transparent encryption of sentry-encrypted columns"
+  s.description = "Allows you to have a column_name fronting for a crypted_column_name. Supports transparent use of crypted data with caching inside the ActiveRecord lifecycle"
 
   s.rubyforge_project = "strongbox-sentry"
 
