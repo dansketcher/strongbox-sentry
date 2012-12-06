@@ -1,9 +1,9 @@
 require "strongbox-sentry/version"
 require 'base64'
-require 'active_record/strongbox_sentry_callback'
+require 'strongbox-sentry/strongbox_sentry_callback'
 
 begin
-  require 'active_record/strongbox_sentry'
+  require 'strongbox-sentry/strongbox_sentry'
   ActiveRecord::Base.class_eval do
     include ActiveRecord::StrongboxSentry
   end

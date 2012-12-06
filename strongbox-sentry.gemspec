@@ -4,7 +4,7 @@ require "strongbox-sentry/version"
 
 Gem::Specification.new do |s|
   s.name        = "strongbox-sentry"
-  s.version     = Strongbox::Sentry::VERSION
+  s.version     = ActiveRecord::StrongboxSentry::VERSION
   s.authors     = ["Dan Sketcher"]
   s.email       = ["dan@sketcher.net"]
   s.homepage    = ""
